@@ -48,4 +48,31 @@ Git push origin master
 git log
 ```
 
+## Check status of working tree
+
+```
+git status
+```
+
+## Check local branch
+
+```
+git branch
+```
+
+## Change branch
+
+```
+Git checkout ThaiNguyen
+```
+
+## Merge commit from branch
+
+```
+git checkout master
+git merge ThaiNguyen
+```
+
+
+
 
