@@ -2,9 +2,9 @@
 
 ## Block
 
-* Block are enclosed in do/end statement or in brackets {}
+*Block are enclosed in do/end statement or in brackets {}
 
-And they have multiple arguments *
+And they have multiple arguments*
 
 ```
 [1,2,3].each { |x| puts x}
