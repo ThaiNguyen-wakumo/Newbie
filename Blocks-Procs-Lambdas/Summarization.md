@@ -47,7 +47,7 @@ say.===
 ```
 ## Proc
 
-_Proc is the same similar concept as Lambda
+_Proc is the same similar concept as Lambda_
 
 *Note*: _Here is a summary of how Lambda and Proc is different_
 
