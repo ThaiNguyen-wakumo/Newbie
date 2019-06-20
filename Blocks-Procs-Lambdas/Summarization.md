@@ -2,9 +2,7 @@
 
 ## Block
 
-_Block are enclosed in do/end statement or in brackets {}
-
-And they have multiple arguments_
+_Block are enclosed in +do/end+ statement or in +brackets+ {} and they have +multiple arguments+_
 
 ```
 [1,2,3].each { |x| puts x}
@@ -20,9 +18,8 @@ _Block is not an object_
 
 ### Yield Keyword
 
-* It's a keyword that allows you to call a given block
-
-When you use the yield keyword, the code inside block will run *
+_It's a keyword that allows you to call a given block
+When you use the +YIELD+ keyword, the code inside block will run_
 
 ```
 def print
@@ -34,14 +31,14 @@ print { puts "Block is not an object" }
 
 ## Lambda
 
-* Lambda is a way to define a block *
+_Lambda is a way to define a block_
 
 ```
 say = -> { puts "This is a lambda"}
 say.call
 ```
 
-* Many ways to call a lambda *
+_Many ways to call a lambda_
 
 ```
 say.call
