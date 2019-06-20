@@ -2,7 +2,7 @@
 
 ## Block
 
-_Block are enclosed in +do/end+ statement or in +brackets+ {} and they have +multiple arguments+_
+_Block are enclosed in a bracket or in do/end statement_
 
 ```
 [1,2,3].each { |x| puts x}
@@ -14,12 +14,11 @@ _Block are enclosed in +do/end+ statement or in +brackets+ {} and they have +mul
 end
 ```
 
-_Block is not an object_
+*Note*: _Block is not an object_
 
 ### Yield Keyword
 
-_It's a keyword that allows you to call a given block
-When you use the +YIELD+ keyword, the code inside block will run_
+_It's a keyword that allows you to call a given block_
 
 ```
 def print
