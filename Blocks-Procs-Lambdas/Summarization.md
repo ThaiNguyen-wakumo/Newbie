@@ -45,4 +45,14 @@ say.()
 say[]
 say.===
 ```
+## Proc
+
+_Proc is the same similar concept as Lambda
+
+*Note*: _Here is a summary of how Lambda and Proc is different_
+
+| Difference             | Lambda               | Block              |
+| -----------------------|----------------------|--------------------|
+| Defined                | -> {}                | Proc.new()         |
+| Return                 | from lambda itself   | from current method|
 
