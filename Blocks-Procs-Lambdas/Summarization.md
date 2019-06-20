@@ -2,9 +2,9 @@
 
 ## Block
 
-*Block are enclosed in do/end statement or in brackets {}
+_Block are enclosed in do/end statement or in brackets {}
 
-And they have multiple arguments*
+And they have multiple arguments_
 
 ```
 [1,2,3].each { |x| puts x}
@@ -16,7 +16,7 @@ And they have multiple arguments*
 end
 ```
 
-* Block is not an object *
+_Block is not an object_
 
 ### Yield Keyword
 
