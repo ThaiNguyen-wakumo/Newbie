@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class Maths
 
@@ -13,3 +13,4 @@ class Maths
     a / b
   end
 end
+
