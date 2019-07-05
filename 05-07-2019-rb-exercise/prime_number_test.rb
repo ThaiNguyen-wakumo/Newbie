@@ -1,4 +1,4 @@
-require './prob1'
+require './prime_number.rb'
 require 'minitest/autorun'
 require 'pry'
 

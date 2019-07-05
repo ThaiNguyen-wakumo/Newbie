@@ -1,4 +1,4 @@
-require './prob3'
+require './palindrome_number.rb'
 require 'minitest/autorun'
 require 'pry'
 
@@ -8,7 +8,7 @@ class TestPalindrome < Minitest::Test
 	end
 
 	def test_check_prime
-		assert_equal @palindrome.palindrome(131),nil
-		assert_equal @palindrome.palindrome(456),nil
+		assert_equal @palindrome.palindrome(num),num.reverse
+		
 	end
 end

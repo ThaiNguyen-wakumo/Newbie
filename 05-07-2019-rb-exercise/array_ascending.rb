@@ -1,3 +1,4 @@
+class MyArray
 def my_array(list, new_array = nil)
 
  if list.size <= 0
@@ -15,5 +16,6 @@ def my_array(list, new_array = nil)
  my_array(list, new_array)
 
 end
+end
 
-puts my_array([-3, 1, 2, 20, 11, 14, 3, 6, 8, 5])
+# puts MyArray.new.my_array([-3, 1, 2, 20, 11, 14, 3, 6, 8, 5])
