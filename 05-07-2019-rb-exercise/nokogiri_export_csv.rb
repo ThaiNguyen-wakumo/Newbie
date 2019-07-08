@@ -7,8 +7,10 @@ url = Nokogiri::HTML(open('https://en.wikipedia.org/wiki/2019_Major_League_Socce
 body = url.css('div#content.mw-body').css('div#bodyContent.mw-body-content').css('div#mw-content-text.mw-content-ltr').css('div.mw-parser-output').css('table.wikitable.sortable').first
 infos = body.css('tbody')
 
-CSV.open('prob5.csv', 'wb') do |csv|
+CSV.open('mls_team_by_nokogiri.csv', 'wb') do |csv|
 
+	binding.pry
+	
 	csv << ['Team','Head coach','Captain','Shirt sponsor']
 	infos.css('tr').each do |data|
 
@@ -17,3 +19,6 @@ CSV.open('prob5.csv', 'wb') do |csv|
   			csv << data0
 	end
 end
+
+puts "done"
+
