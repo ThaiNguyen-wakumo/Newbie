@@ -4,5 +4,5 @@
 
 |           |  Mon  |   Tue  | Wed   | Thu | Fri |
 |-----------|:-----:|:------:|-------|-----|-----|
-| Morning   |       |        | EE440 |     |     |
-| Afternoon | EE465 | CSE446 |       |     |     |
+| Morning   |       |        |       |     |     |
+| Afternoon |       |        |       |     |     |
