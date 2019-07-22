@@ -2,21 +2,21 @@
 
 ## String
 
-```
+```rb
 "Apple".class
 -> String
 ```
 
 ## Symbol
 
-```
+```rb
 :Apple.class
 -> Symbol
 ```
 
 ## Convertion
 
-```
+```rb
 "Apple".to_sym
 -> :Apple
 
@@ -28,7 +28,7 @@
 
 To define a hash (using Symbol as a key instead of String)
 
-```
+```rb
 Host = {
   :Tokyo => 'place1'
   :Osaka => 'place2'

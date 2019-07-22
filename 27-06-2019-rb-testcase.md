@@ -2,7 +2,7 @@
 
 First, a simple class:
 
-```
+```rb
 class Blog
   def title
     "Wakumo Company"
@@ -12,7 +12,7 @@ end
 
 ## minitest
 
-```
+```rb
 require 'minitest/autorun'
 require './blog'
 
@@ -30,7 +30,7 @@ end
 
 ## rspec
 
-```
+```rb
 require 'rspec/autorun'
 require './blog'
 

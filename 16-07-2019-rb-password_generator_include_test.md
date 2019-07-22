@@ -2,7 +2,7 @@
 
 ## password.rb
 
-```
+```rb
 require 'pry'
 
 class Password
@@ -28,7 +28,7 @@ end
 
 ## password_test.rb
 
-```
+```rb
 require './password'
 require 'minitest/autorun'
 require 'pry'
