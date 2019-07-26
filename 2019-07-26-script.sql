@@ -1,0 +1,22 @@
+CREATE TABLE students (
+  id SERIAL NOT NULL,
+  name VARCHAR NOT NULL,
+  CONSTRAINT "pk-std" PRIMARY KEY (id));
+
+CREATE TABLE classes (
+  id SERIAL NOT NULL,
+  name VARCHAR NOT NULL,
+  std_id SERIAL NOT NULL,
+  CONSTRAINT "pk-cl" PRIMARY KEY (id));
+
+CREATE TABLE teachers (
+  id SERIAL NOT NULL,
+  name VARCHAR NOT NULL,
+  class_id SERIAL NOT NULL,
+  CONSTRAINT "pk-tc" PRIMARY KEY (id));
+  
+CREATE TABLE courses (
+  id SERIAL NOT NULL,
+  name VARCHAR NOT NULL,
+  tc_id SERIAL NOT NULL,
+  CONSTRAINT "pk-co" PRIMARY KEY (id));
