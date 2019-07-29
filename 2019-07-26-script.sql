@@ -1,3 +1,5 @@
+CREATE INDEX id_std ON students(id);
+
 CREATE TABLE students (
   id SERIAL NOT NULL,
   name VARCHAR NOT NULL,
