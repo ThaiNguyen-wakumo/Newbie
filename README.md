@@ -3,4 +3,4 @@
 |           | Mon | Tue | Wed | Thu    | Fri    |
 |:---------:|:---:|-----|-----|--------|--------|
 |  Morning  | Off |     |     |        |        |
-| Afternoon |     |     |     | School |        |
+| Afternoon |     |     |     | School | School |
