@@ -1,3 +1,5 @@
+//An example to fetch API of React Native
+
 import React from "react";
 import { FlatList, ActivityIndicator, Text, View } from "react-native";
 
