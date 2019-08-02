@@ -1,6 +1,6 @@
-#SCHOOL TIMETABLE (29/07 - 02/08/2019)
+#SCHOOL TIMETABLE (01/08 - 15/08/2019)
 
-|           | Mon | Tue | Wed | Thu    | Fri    |
-|:---------:|:---:|-----|-----|--------|--------|
-|  Morning  | Off |     |     |        |        |
-| Afternoon |     |     |     | School | School |
+|           |   Mon  | Tue    | Wed    | Thu    | Fri    |
+|:---------:|:------:|--------|--------|--------|--------|
+|  Morning  | School | School | School | School | School |
+| Afternoon |        |        |        |        |        |
